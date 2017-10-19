@@ -1,5 +1,9 @@
 
-/*will run a string through loop and count number of vowels.
+/*
+Jose Ramos
+10/19/2017
+
+will run a string through loop and count number of vowels.
 Will then print the sum of the number of vowels in a string. */
 
 fun main(args: Array<String>){
