@@ -8,16 +8,21 @@ Will then print the sum of the number of vowels in a string. */
 
 fun main(args: Array<String>){
 
+        //strings to test
         var test1 = "aeiou"
         var test2 = "This is a test"
         var test3 = "hello world"
         var test4 = "nnnnnnnnn"
 
+        //sum of vowels found in each of the test strings
         var sum1 = 0
         var sum2 = 0
         var sum3 = 0
         var sum4 = 0
 
+    /*for loops run for the length of the string
+     if a vowel is present at the current index sum will increase by one.
+     */
     for(i in test1.indices){
         if (test1[i] == 'a' || test1[i] == 'e' ||test1[i] == 'i' || test1[i] == 'o' || test1[i] == 'u'){
             sum1++
@@ -42,6 +47,7 @@ fun main(args: Array<String>){
         }
     }
 
+    //prints out sums
     println(sum1)
     println(sum2)
     println(sum3)
